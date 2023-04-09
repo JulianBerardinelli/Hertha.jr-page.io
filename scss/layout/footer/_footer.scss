@@ -1,0 +1,81 @@
+footer {
+    width: 100%;
+    @include flex(block,center,none);
+    background: $bgd-color-princial;    
+    div {
+        margin: 4px;
+        padding: 5px;
+    }
+    .footer-logo {
+        width: 100%;
+        @include flex(flex,center,center);
+        a {
+            img {
+                width: 60px;
+            }
+        }
+    }
+    .accordion {
+        --bs-accordion-bg: $bgd-color-princial;
+        --bs-accordion-btn-color: $txt-color;
+        --bs-accordion-border-color: #212529;
+    }
+    .accordion-button {
+        letter-spacing: 1px;
+        &:not(.collapsed) {
+            color: $txt-color;
+            background-color: transparent;
+            box-shadow: none;
+        }
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    section {
+        background: linear-gradient(253deg, #ff0000,#0011ff);
+        clip-path: polygon(30% 12%, 83% 31%, 100% 14%, 100% 100%, 0 100%, 0 5%, 9% 24%);
+        ul {
+            padding-top: 70px;
+            padding-left: 8px;
+            padding-bottom: 10px;
+            margin: 10px;
+            list-style: none;
+            li {
+                a {
+                    color: $txt-color;
+                    list-style: none;
+                    text-decoration: none
+                }
+            }
+        }
+    }
+    .social-media {
+        @include flex(flex,center,center);
+        padding: 3px;
+        margin-top: 10px;
+        a {
+            width: 30px;
+        }
+    }
+    .sec-data {
+        @include flex(flex,center,center);
+        ul {
+            list-style: none;
+            display: flex;
+            padding: 0%;
+            li {
+                list-style: none;
+                padding: 5px;
+                h6{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .made-by {
+        @include flex(flex,center,center);
+        h6{ 
+            font-size: 12px;
+        }
+    }
+}

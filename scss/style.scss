@@ -1,0 +1,25 @@
+@import "./utilities/variables";
+@import "./utilities/mixing";
+@import "./base/typo";
+@import "./base/reset";
+
+@import "./components/separador";
+
+@import "./layout/header/nav";
+@import "./layout/header/offcanvas";
+@import "./layout/index/slide1";
+@import "./layout/index/match";
+@import "./layout/index/table";
+@import "./layout/index/news-carrousel";
+@import "./layout/store/shop-conteiner";
+
+@import "./layout/galery/galery-conteiner";
+@import "./layout/galery/galery-box";
+
+@import "./layout/club/club";
+
+@import "./layout/calendario/calendario";
+@import "./layout/calendario/acordion";
+
+
+@import "./layout/footer/footer";

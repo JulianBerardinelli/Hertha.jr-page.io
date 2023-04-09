@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Hertha-1';
+}
+body {
+    background-color: $bgd-color-princial;
+}
+h1 {
+    color: $txt-color;
+    font-family: "Hertha-3";
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h2 {
+    color: $txt-color;
+    font-family: "Hertha-2";
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+h3 {
+    color: $txt-color;
+    font-size: 8px;
+    letter-spacing: 1px;
+}

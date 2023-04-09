@@ -1,0 +1,22 @@
+.acordion-conteiner {
+    @include flex (block,center,center);
+    width: 100%;
+    background-color: $bgd-color-princial;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.accordion {
+    --bs-accordion-bg: $bgd-color-princial;
+    --bs-accordion-btn-color: $txt-color;
+    --bs-accordion-border-color: #212529;
+}
+.acor-body {
+    img {
+        margin: 0px 15px 0px 15px;
+        width: 45px;
+    }
+    .team {
+        width: 60px;
+    }
+}

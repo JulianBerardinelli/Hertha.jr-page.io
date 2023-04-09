@@ -1,0 +1,27 @@
+.cal-banner {
+    height: 200px;
+    background-image: url(../assets/img/backgrounds/herthastadium.jpg);
+    background-position: fixed;
+    background-attachment: scroll;
+    background-size: contain;
+    clip-path: polygon(100% 0, 100% 95%, 0 62%, 0 0);
+}
+.cal-conteiner {
+    margin-left: 10px;
+    h1{
+        position: absolute;
+        font-size: 40px;
+        top: 40%;
+        background: linear-gradient(to right, #ff0000,#1100ff);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    h2 {
+        position: absolute;
+        font-size: 40px;
+        top: 40%;
+        left: 4%;
+        font-family: "Hertha-3";
+    }
+}

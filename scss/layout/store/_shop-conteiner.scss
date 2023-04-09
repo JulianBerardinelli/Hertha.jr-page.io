@@ -1,0 +1,82 @@
+.store-conteiner {
+    width: 100%;
+    @include flex(flex,center,center);
+    background-image: $bgd-img;
+    background-color: $bgd-color-princial;
+    flex-wrap: wrap;
+    color: $txt-color;
+}
+.store-box {
+    width: 100%;
+    @include flex(grid,center,center);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-wrap: wrap;
+    margin: 10px;
+    section {
+        background-color: $bgd-color-princial;
+        padding: 10px;
+        justify-self: center;
+        div {
+            h2 {
+                @include flex(flex,center,center);
+                color: $txt-color;
+                font-size: 8px;
+                padding: 2px;
+            }
+        }
+    }
+    .product-box {
+        width: 150px;
+        border-radius: 10px;
+        margin: 4px;
+        @include flex(flex,center,center);
+    }
+    .product {
+        width: 110px;
+        border-radius: 15px;
+        justify-content: center;
+    }
+}
+.store-box .product-box .personalize, h3 {
+    @include flex(flex,center,center);
+    padding: 2px;
+}
+.personalize {
+    width: 15px;
+    margin-left: 67px;
+}
+.button-shop {
+    width: 90px;
+    background-color: $bgd-color-princial;
+    color: $txt-color;
+    border: 1.5px solid #1d1d1d;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 5px;
+    &:hover {
+        transform: scale(1.1);
+        background: rgb(255,0,0);
+        border: 2px solid #1d1d1d;
+        border-radius: 20px;
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    }
+}
+.button-shop-v {
+    width: 90px;
+    background-color: $bgd-color-princial;
+    color: $txt-color;
+    border: 1.5px solid #1d1d1d;
+    border-radius: 20px;
+    padding: 5px;
+    &:hover {
+        transform: scale(1.1);
+        background: rgb(255,0,0);
+        border: 2px solid #1d1d1d;
+        border-radius: 20px;
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    }
+}

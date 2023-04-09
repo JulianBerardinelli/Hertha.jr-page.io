@@ -1,0 +1,602 @@
+@font-face {
+  font-family: "Hertha-0";
+  src: url(../assets/fonts/Hertha-Regular.ttf); }
+
+@font-face {
+  font-family: "Hertha-1";
+  src: url(../assets/fonts/Hertha-Bold.ttf); }
+
+@font-face {
+  font-family: "Hertha-2";
+  src: url(../assets/fonts/HerthaHaHoHe-Black.ttf); }
+
+@font-face {
+  font-family: "Hertha-3";
+  src: url(../assets/fonts/HerthaHaHoHe-BlackItalic.ttf); }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Hertha-1'; }
+
+body {
+  background-color: black; }
+
+h1 {
+  color: white;
+  font-family: "Hertha-3";
+  font-size: 18px;
+  letter-spacing: 1px; }
+
+h2 {
+  color: white;
+  font-family: "Hertha-2";
+  font-size: 13px;
+  letter-spacing: 1px; }
+
+h3 {
+  color: white;
+  font-size: 8px;
+  letter-spacing: 1px; }
+
+.separador {
+  width: 90%;
+  height: 4px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  top: 0%; }
+
+header .conteiner-1 {
+  width: 100%;
+  height: 70px;
+  background-image: url(../assets/img/conteiner11.jpg);
+  position: relative; }
+  header .conteiner-1 .borde-conteiner1 {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0%;
+    top: 95%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); }
+  header .conteiner-1 a {
+    display: flex;
+    justify-content: center;
+    align-items: none; }
+    header .conteiner-1 a img {
+      width: 60px;
+      position: absolute;
+      top: 40%; }
+
+.menu-button {
+  width: 20px; }
+
+.offcanvas-header {
+  display: block;
+  justify-content: left;
+  align-items: none; }
+  .offcanvas-header .button-out {
+    position: absolute;
+    right: 15%;
+    top: 5%; }
+  .offcanvas-header h5 {
+    margin-top: 30px;
+    font-family: "Hertha-3";
+    font-size: 40px; }
+  .offcanvas-header .offc-title-2 {
+    position: absolute;
+    top: 7%;
+    background: linear-gradient(to right, #ff0000, #0011ff);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; }
+
+.offcavas-body {
+  display: block;
+  justify-content: left;
+  align-items: none;
+  margin: 0px;
+  padding: 0px; }
+  .offcavas-body .buscar-offcanvas {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center; }
+    .offcavas-body .buscar-offcanvas .buscar-bar {
+      width: 180px;
+      height: 35px; }
+    .offcavas-body .buscar-offcanvas .buscar-button {
+      margin-left: 10px;
+      width: 100px;
+      height: 35px;
+      border-color: black;
+      color: white; }
+      .offcavas-body .buscar-offcanvas .buscar-button:hover {
+        transform: scale(1.05);
+        background: linear-gradient(90deg, red 0%, #0005ff 100%);
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+        border-image-source: linear-gradient(#313131, black);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text; }
+  .offcavas-body .nav-offcanvas {
+    width: 100%;
+    margin-left: -42px; }
+    .offcavas-body .nav-offcanvas li {
+      list-style: none; }
+      .offcavas-body .nav-offcanvas li a {
+        font-size: 15px;
+        list-style: none;
+        text-decoration: none;
+        color: white; }
+  .offcavas-body .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: none;
+    background-color: #0011ff; }
+    .offcavas-body .social-media .social-media-icons {
+      width: 35px;
+      padding: 2px;
+      margin-right: 4px; }
+  .offcavas-body .separador-offc {
+    width: 50%;
+    height: 4px;
+    top: 0%; }
+
+.slide-1 {
+  width: 100%;
+  background-color: black;
+  display: flex; }
+
+.conteiner-2 {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/background-1.jpg);
+  flex-wrap: wrap;
+  margin-top: 30px; }
+  .conteiner-2 section {
+    display: block;
+    justify-content: center;
+    align-items: center; }
+
+.box-1 {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  .box-1 .title-rect-left {
+    position: absolute;
+    top: -9%;
+    left: 45%;
+    width: 180px;
+    height: 25px; }
+  .box-1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .box-1 .title-a {
+    display: flex;
+    position: relative; }
+
+.box-2 {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  .box-2 .title-rect-right {
+    position: absolute;
+    top: -9%;
+    left: 0%;
+    width: 55%;
+    height: 25px; }
+  .box-2 div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.match {
+  height: 100px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 12px;
+  border-image-source: linear-gradient(black, #313131);
+  border-image-slice: 1;
+  border-radius: 10px; }
+  .match:hover {
+    transform: scale(1.05);
+    background: red;
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    border-image-source: linear-gradient(#313131, black); }
+  .match .team-1 {
+    width: 60px;
+    margin: 25px; }
+  .match .team-2 {
+    width: 40px;
+    margin: 30px; }
+  .match .team-3 {
+    width: 80px;
+    margin: 20px; }
+
+.title-1 {
+  margin-top: 10px; }
+
+.title-2 {
+  margin-top: 10px; }
+
+.box-3 {
+  width: 100%;
+  color: white; }
+  .box-3 div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: none; }
+
+.table {
+  width: 100%;
+  border: 3px solid #1d1d1d8e;
+  color: white;
+  padding: 5px;
+  border-collapse: collapse; }
+  .table tr {
+    background-color: black;
+    border-bottom: 1px solid #1d1d1d8e; }
+    .table tr th {
+      padding: 2px; }
+    .table tr td {
+      padding: 2px;
+      text-align: center; }
+  .table tbody tr:hover {
+    transform: scale(1);
+    background: red;
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
+  .table .equipos {
+    display: flex;
+    justify-content: none;
+    align-items: center; }
+    .table .equipos .table-shield {
+      width: 15px;
+      margin-right: 5px; }
+
+.conteiner-3 {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: none;
+  background-image: url(../assets/img/backgrounds/muro-negro.jpg);
+  background-position: center;
+  background-attachment: fixed; }
+  .conteiner-3 div {
+    margin-bottom: 10px;
+    margin-top: 7px; }
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: none; }
+
+.card {
+  width: 170px;
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(210, 210, 210, 0.251); }
+  .card img {
+    max-width: 100%;
+    max-height: 100%; }
+  .card .card-img-top {
+    width: 170px;
+    padding: 0%;
+    margin: 0%; }
+
+.card-body {
+  width: 170px;
+  height: 80px; }
+  .card-body h5 {
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    background: linear-gradient(to right, #ff0000, #0011ff);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: "Hertha-3"; }
+  .card-body p {
+    font-size: 10px;
+    margin-top: -35px;
+    margin-left: -5px; }
+  .card-body a {
+    margin-top: 0%;
+    width: 70px;
+    font-size: 10px;
+    margin-left: -5px; }
+
+.store-conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/background-1.jpg);
+  background-color: black;
+  flex-wrap: wrap;
+  color: white; }
+
+.store-box {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  flex-wrap: wrap;
+  margin: 10px; }
+  .store-box section {
+    background-color: black;
+    padding: 10px;
+    justify-self: center; }
+    .store-box section div h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 8px;
+      padding: 2px; }
+  .store-box .product-box {
+    width: 150px;
+    border-radius: 10px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .store-box .product {
+    width: 110px;
+    border-radius: 15px;
+    justify-content: center; }
+
+.store-box .product-box .personalize, h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px; }
+
+.personalize {
+  width: 15px;
+  margin-left: 67px; }
+
+.button-shop {
+  width: 90px;
+  background-color: black;
+  color: white;
+  border: 1.5px solid #1d1d1d;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 5px; }
+  .button-shop:hover {
+    transform: scale(1.1);
+    background: red;
+    border: 2px solid #1d1d1d;
+    border-radius: 20px;
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
+
+.button-shop-v {
+  width: 90px;
+  background-color: black;
+  color: white;
+  border: 1.5px solid #1d1d1d;
+  border-radius: 20px;
+  padding: 5px; }
+  .button-shop-v:hover {
+    transform: scale(1.1);
+    background: red;
+    border: 2px solid #1d1d1d;
+    border-radius: 20px;
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
+
+.galery-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/img/backgrounds/bricks.jpg); }
+  .galery-conteiner h1 {
+    position: absolute;
+    justify-content: center;
+    top: 135px;
+    font-size: 25px;
+    background: linear-gradient(to right, #003cff, #00d0ff);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; }
+
+.galery-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  margin-top: 15px;
+  background-image: url(../assets/img/backgrounds/background-w-paper.jpg);
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px #4c6265; }
+  .galery-box section {
+    width: 95%;
+    display: grid;
+    justify-content: center;
+    align-items: none;
+    padding: 20px 20px 20px 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto;
+    grid-gap: 20px;
+    margin-top: 30px; }
+  .galery-box div {
+    width: 100%;
+    box-shadow: 0px 0px 20px 2px #adfaff; }
+    .galery-box div img {
+      width: 100%; }
+
+.club-conteiner {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center; }
+
+.club-box1 {
+  width: 100%; }
+  .club-box1 img {
+    width: 100%; }
+
+.club-box2 {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/background-1.jpg); }
+  .club-box2 img {
+    position: absolute;
+    top: 36%;
+    left: 0%;
+    width: 200px;
+    height: 45px; }
+  .club-box2 h2 {
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    font-size: 20px;
+    color: white;
+    font-family: "Hertha-3"; }
+  .club-box2 p {
+    color: white;
+    font-size: 10px;
+    margin: 20px;
+    margin-top: 45px;
+    margin-right: 50%; }
+
+.cal-banner {
+  height: 200px;
+  background-image: url(../assets/img/backgrounds/herthastadium.jpg);
+  background-position: fixed;
+  background-attachment: scroll;
+  background-size: contain;
+  clip-path: polygon(100% 0, 100% 95%, 0 62%, 0 0); }
+
+.cal-conteiner {
+  margin-left: 10px; }
+  .cal-conteiner h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 40%;
+    background: linear-gradient(to right, #ff0000, #1100ff);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; }
+  .cal-conteiner h2 {
+    position: absolute;
+    font-size: 40px;
+    top: 40%;
+    left: 4%;
+    font-family: "Hertha-3"; }
+
+.acordion-conteiner {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px; }
+
+.accordion {
+  --bs-accordion-bg: $bgd-color-princial;
+  --bs-accordion-btn-color: $txt-color;
+  --bs-accordion-border-color: #212529; }
+
+.acor-body img {
+  margin: 0px 15px 0px 15px;
+  width: 45px; }
+
+.acor-body .team {
+  width: 60px; }
+
+footer {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: none;
+  background: black; }
+  footer div {
+    margin: 4px;
+    padding: 5px; }
+  footer .footer-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .footer-logo a img {
+      width: 60px; }
+  footer .accordion {
+    --bs-accordion-bg: $bgd-color-princial;
+    --bs-accordion-btn-color: $txt-color;
+    --bs-accordion-border-color: #212529; }
+  footer .accordion-button {
+    letter-spacing: 1px; }
+    footer .accordion-button:not(.collapsed) {
+      color: white;
+      background-color: transparent;
+      box-shadow: none; }
+    footer .accordion-button:focus {
+      box-shadow: none; }
+  footer section {
+    background: linear-gradient(253deg, #ff0000, #0011ff);
+    clip-path: polygon(30% 12%, 83% 31%, 100% 14%, 100% 100%, 0 100%, 0 5%, 9% 24%); }
+    footer section ul {
+      padding-top: 70px;
+      padding-left: 8px;
+      padding-bottom: 10px;
+      margin: 10px;
+      list-style: none; }
+      footer section ul li a {
+        color: white;
+        list-style: none;
+        text-decoration: none; }
+  footer .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-top: 10px; }
+    footer .social-media a {
+      width: 30px; }
+  footer .sec-data {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .sec-data ul {
+      list-style: none;
+      display: flex;
+      padding: 0%; }
+      footer .sec-data ul li {
+        list-style: none;
+        padding: 5px; }
+        footer .sec-data ul li h6 {
+          font-size: 12px; }
+  footer .made-by {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .made-by h6 {
+      font-size: 12px; }

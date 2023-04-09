@@ -1,0 +1,25 @@
+.galery-box {
+    width: 100%;
+    @include flex(flex,center,center);
+    margin: 15px;
+    margin-top: 15px;
+    background-image: url(../assets/img/backgrounds/background-w-paper.jpg);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgb(76, 98, 101);
+    section {
+        width: 95%;
+        @include flex(grid,center,none);
+        padding: 20px 20px 20px 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row: auto;
+        grid-gap: 20px;
+        margin-top: 30px;
+    }
+    div {
+        width: 100%;
+        box-shadow: 0px 0px 20px 2px rgb(173, 250, 255);
+        img {
+            width: 100%;
+        }
+    }
+}

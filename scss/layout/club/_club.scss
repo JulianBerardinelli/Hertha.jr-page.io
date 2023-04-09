@@ -1,0 +1,37 @@
+.club-conteiner {
+    width: 100%;
+    @include flex(block,center,center);
+}
+.club-box1 {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+.club-box2 {
+    width: 100%;
+    @include flex(block,center,center);
+    background-image: $bgd-img;
+    img {
+        position: absolute;
+        top: 36%;
+        left: 0%;
+        width: 200px;
+        height: 45px;
+    }
+    h2 {
+        position: absolute;
+        top: 38%;
+        left: 40%;
+        font-size: 20px;
+        color: $txt-color;
+        font-family: "Hertha-3";
+    }
+    p {
+        color: $txt-color;
+        font-size: 10px;
+        margin: 20px;
+        margin-top: 45px;
+        margin-right: 50%;
+    }
+}
