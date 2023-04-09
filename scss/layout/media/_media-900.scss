@@ -1,0 +1,258 @@
+@media (min-width:900px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    .logo {
+        width: 75px;
+        top: 25%;
+    }
+    .nav-main {
+        width: 100%;
+        height: 51px;
+        display: grid;
+        align-items: center;
+        background: #000000;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "item1 item2"
+        ;
+        border-bottom: 1px solid #1d1d1d;
+    }
+    .nav-menu-left {
+        grid-area: item1;
+        width: 80%;
+        height: 50px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        list-style: none;
+        font-size: 12px;
+        background-color: #000000;
+        li{
+            a {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                color: white;
+                text-decoration: none;
+                padding: 10px 2px;
+                border-right: 1px solid #1d1d1d;
+            }
+            &:hover {
+                transform: scale(1.1);
+                background: linear-gradient(to right, #ff0000,rgba(255, 0, 0, 0.712));
+                -webkit-text-fill-color: transparent; 
+                background-clip: text;
+                -webkit-background-clip: text;
+                font-size: 13px;
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+            }
+        } 
+    }
+    .dropdown-menu {
+        background-color: $bgd-color-princial;
+        border: 2px solid #ff0000;
+        box-shadow: none;
+        li{
+            a {
+                @include flex (none,left,center);
+                font-size: 10px;
+                padding: 5px;
+                box-shadow: none;
+                border-right: none;
+                &:hover {
+                    transform: scale(1.0);
+                    font-size: 10px;
+                    color: $txt-color;
+                    background-color: #1d1d1d;
+                    box-shadow: none;
+                }
+            }
+        } 
+    }
+    .dropdown-divider {
+        width: 90%;
+        background-color: $bgd-color-princial;
+    }
+    .nav-menu-right {
+        grid-area: item2;
+        width: 100%;
+        height: 50px;
+        @include flex (flex,right,center);
+        list-style: none;
+        font-size: 12px;
+        background-color: $bgd-color-princial;
+        li{
+            a{
+                width: 100%;
+                @include flex (flex,center,none);
+                color: $txt-color;
+                text-decoration: none;
+                padding: 10px 2px;
+            }
+            &:hover{
+                transform: scale(1.0);
+                background: linear-gradient(to right, #a600ff,rgba(0, 13, 255, 0.712));
+                -webkit-text-fill-color: transparent; 
+                background-clip: text;
+                -webkit-background-clip: text;
+                font-size: 13px;
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+            }
+        }
+        img {
+            padding-right: 15px;
+        }
+    }
+    .buscar-bar {
+        width: 150px;
+        height: 30px;
+        margin-top: 3px;
+        margin-left: 20px;
+        margin-right: 10px;
+        background-color: $bgd-color-princial;
+        border-color: #ffffff33;
+        color: $txt-color;
+    }
+    .buscar-button {
+        width: 100px;
+        height: 35px;
+        border-color: $bgd-color-princial;
+        color: $txt-color;
+        &:hover{
+            border-color: #1d1d1d;
+            background: linear-gradient(to right, #003cff,#00d0ff);
+        }
+    }
+    .title-rect-right {
+        position: absolute;
+        left: 20%;
+        top: -10%;
+        width: 100%;
+        height: 40px;
+    }
+    .title-rect-left {
+        top: -10%;
+        left: -20%;
+        width: 100%;
+        height: 40px;
+    }
+    .box-1 {
+        width: 500px;
+        height: 150px;
+    }
+    .box-2 {
+        width: 500px;
+        height: 150px;
+    }
+    .team-1 {
+        width: 60px;
+        margin: 25px;
+    }
+    .team-2 {
+        width: 40px;
+        margin: 30px;
+    }
+    .team-3 {
+        width: 80px;
+        margin: 20px;
+    }
+    .title-1 {
+        margin-top: 10px;
+    }
+    .title-2 {
+        margin-top: 10px;
+    }
+    .separador {
+        height: 10px;
+    }
+    
+    .store-box {
+        @include flex (flex,space-evenly,center);
+        flex-wrap: wrap;
+        div {
+            h2 {
+                margin-top: 15px;
+                font-size: 15px;
+            }
+        }
+    }
+    .button-shop {
+        margin-left: 50px;
+        width: 150px;
+    }
+    .button-shop-v {
+        width: 150px;
+        background-color: $bgd-color-princial;
+        color: $txt-color;
+        border: 1.5px solid #1d1d1d;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    .product-box {
+        width: 280px;
+    }
+    .product {
+        width: 250px;
+    }
+    .galery-conteiner {
+        h1{
+            top: 150px;
+            font-size: 50px;
+        }
+    }
+    .galery-grid {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .club-box2 {
+        img {
+            position: absolute;
+            top: 102%;
+            left: 0%;
+            width: 1200px;
+            height: 50px;
+        }
+        h2 {
+            position: absolute;
+            top: 105%;
+            left: 65%;
+            font-size: 55px;
+            color: $txt-color;
+        }
+        p {
+            font-size: 18px;
+            margin-left: 80PX;
+        }
+    }
+    .acordion-conteiner {
+        margin-top: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .cal-banner {
+        height: 450px;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    .cal-conteiner {
+        margin-left: 20px;
+        h1{
+            font-size: 70px;
+            top: 70%;
+        }
+        h2 {
+            font-size: 70px;
+            top: 69%;
+            left: 3%;
+        }
+    }
+}

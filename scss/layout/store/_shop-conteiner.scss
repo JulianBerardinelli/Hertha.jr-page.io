@@ -9,13 +9,12 @@
 .store-box {
     width: 100%;
     @include flex(grid,center,center);
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
-    margin: 10px;
     section {
         background-color: $bgd-color-princial;
-        padding: 10px;
+        padding: 13px;
         justify-self: center;
         div {
             h2 {
@@ -27,13 +26,13 @@
         }
     }
     .product-box {
-        width: 150px;
+        width: 180px;
         border-radius: 10px;
         margin: 4px;
         @include flex(flex,center,center);
     }
     .product {
-        width: 110px;
+        width: 150px;
         border-radius: 15px;
         justify-content: center;
     }
@@ -47,14 +46,14 @@
     margin-left: 67px;
 }
 .button-shop {
-    width: 90px;
+    width: 130px;
     background-color: $bgd-color-princial;
     color: $txt-color;
     border: 1.5px solid #1d1d1d;
     border-radius: 20px;
     padding: 5px;
     margin: 5px;
-    margin-left: 5px;
+    margin-left: 7px;
     &:hover {
         transform: scale(1.1);
         background: rgb(255,0,0);
@@ -65,7 +64,7 @@
     }
 }
 .button-shop-v {
-    width: 90px;
+    width: 130px;
     background-color: $bgd-color-princial;
     color: $txt-color;
     border: 1.5px solid #1d1d1d;
