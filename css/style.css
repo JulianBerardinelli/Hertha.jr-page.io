@@ -494,7 +494,7 @@ header .conteiner-1 {
 .cal-banner {
   height: 200px;
   background-image: url(../assets/img/backgrounds/herthastadium.jpg);
-  background-position: fixed;
+  background-position: left;
   background-attachment: scroll;
   background-size: contain;
   clip-path: polygon(100% 0, 100% 95%, 0 62%, 0 0); }
@@ -662,9 +662,31 @@ footer {
   .club-box2 h2 {
     top: 60%;
     left: 45%; }
+  .cal-banner {
+    background-position: right;
+    background-attachment: fixed; }
   .acordion-conteiner {
     padding-left: 30px;
     padding-right: 30px; } }
+
+.club-box2 img {
+  top: 65%;
+  width: 500px;
+  height: 45px; }
+
+.club-box2 h2 {
+  top: 70%;
+  left: 30%;
+  font-size: 30px; }
+
+.cal-banner {
+  background-position: top;
+  background-attachment: fixed; }
+
+.cal-conteiner h1 {
+  font-size: 40px;
+  top: 40%;
+  left: 3%; }
 
 @media (min-width: 900px) {
   h1 {
