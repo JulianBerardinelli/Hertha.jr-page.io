@@ -9,7 +9,7 @@
         font-size: 14px;
     }
     .logo {
-        width: 75px;
+        width: 100px;
         top: 25%;
     }
     .nav-main {
@@ -17,7 +17,7 @@
         height: 51px;
         display: grid;
         align-items: center;
-        background: #000000;
+        background: $bgd-color-princial;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
         "item1 item2"
@@ -186,6 +186,12 @@
         grid-template-columns: repeat(3, 1fr);
         margin-top: 70px;
         margin-bottom: 70px;
+    }
+    .galery-box {
+        section {
+            grid-template-columns: repeat(4, 1fr);
+            margin-top: 70px;
+        }
     }
     .club-box2 {
         img {
