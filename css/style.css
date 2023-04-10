@@ -48,6 +48,53 @@ h3 {
   margin-top: 20px;
   top: 0%; }
 
+.button-shop {
+  width: 130px;
+  background-color: black;
+  color: white;
+  border: 1.5px solid #1d1d1d;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 7px; }
+  .button-shop:hover {
+    transform: scale(1.1);
+    background: red;
+    border: 2px solid #1d1d1d;
+    border-radius: 20px;
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
+
+.button-shop-v {
+  width: 130px;
+  background-color: black;
+  color: white;
+  border: 1.5px solid #1d1d1d;
+  border-radius: 20px;
+  padding: 5px; }
+  .button-shop-v:hover {
+    transform: scale(1.1);
+    background: red;
+    border: 2px solid #1d1d1d;
+    border-radius: 20px;
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
+
+.form-control {
+  margin-right: 10px;
+  margin-left: -15px; }
+
+.btn-outline-success {
+  border-color: black;
+  color: white; }
+  .btn-outline-success:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-active-bg: #ffffff;
+    --bs-btn-active-border-color: #ffffff; }
+
 header .conteiner-1 {
   width: 100%;
   height: 70px;
@@ -78,15 +125,15 @@ header .conteiner-1 {
   align-items: none; }
   .offcanvas-header .button-out {
     position: absolute;
-    right: 15%;
-    top: 5%; }
+    right: 7%;
+    top: 3%; }
   .offcanvas-header h5 {
-    margin-top: 30px;
+    margin-top: 25px;
     font-family: "Hertha-3";
     font-size: 40px; }
   .offcanvas-header .offc-title-2 {
     position: absolute;
-    top: 7%;
+    top: 6%;
     background: linear-gradient(to right, #ff0000, #0011ff);
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -96,54 +143,46 @@ header .conteiner-1 {
   display: block;
   justify-content: left;
   align-items: none;
-  margin: 0px;
+  margin-top: 0px;
   padding: 0px; }
-  .offcavas-body .buscar-offcanvas {
-    width: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center; }
-    .offcavas-body .buscar-offcanvas .buscar-bar {
-      width: 180px;
-      height: 35px; }
-    .offcavas-body .buscar-offcanvas .buscar-button {
-      margin-left: 10px;
-      width: 100px;
-      height: 35px;
-      border-color: black;
+
+.buscar-offcanvas {
+  margin-top: 5px;
+  margin-bottom: 7px; }
+
+.nav-offcanvas {
+  width: 100%;
+  margin-left: -42px; }
+  .nav-offcanvas li {
+    list-style: none; }
+    .nav-offcanvas li a {
+      font-size: 15px;
+      list-style: none;
+      text-decoration: none;
       color: white; }
-      .offcavas-body .buscar-offcanvas .buscar-button:hover {
+      .nav-offcanvas li a:hover {
         transform: scale(1.05);
+        background: red;
         background: linear-gradient(90deg, red 0%, #0005ff 100%);
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
-        border-image-source: linear-gradient(#313131, black);
         -webkit-text-fill-color: transparent;
         background-clip: text;
         -webkit-background-clip: text; }
-  .offcavas-body .nav-offcanvas {
-    width: 100%;
-    margin-left: -42px; }
-    .offcavas-body .nav-offcanvas li {
-      list-style: none; }
-      .offcavas-body .nav-offcanvas li a {
-        font-size: 15px;
-        list-style: none;
-        text-decoration: none;
-        color: white; }
-  .offcavas-body .social-media {
-    width: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: none;
-    background-color: #0011ff; }
-    .offcavas-body .social-media .social-media-icons {
-      width: 35px;
-      padding: 2px;
-      margin-right: 4px; }
-  .offcavas-body .separador-offc {
-    width: 50%;
-    height: 4px;
-    top: 0%; }
+
+.social-media {
+  width: 100%;
+  margin-left: -15px;
+  display: flex;
+  justify-content: left;
+  align-items: none; }
+  .social-media .social-media-icons {
+    width: 35px;
+    padding: 2px;
+    margin-right: 4px; }
+
+.separador-offc {
+  width: 60%;
+  height: 4px;
+  top: 0%; }
 
 .slide-1 {
   width: 100%;
@@ -371,38 +410,6 @@ header .conteiner-1 {
 .personalize {
   width: 15px;
   margin-left: 67px; }
-
-.button-shop {
-  width: 130px;
-  background-color: black;
-  color: white;
-  border: 1.5px solid #1d1d1d;
-  border-radius: 20px;
-  padding: 5px;
-  margin: 5px;
-  margin-left: 7px; }
-  .button-shop:hover {
-    transform: scale(1.1);
-    background: red;
-    border: 2px solid #1d1d1d;
-    border-radius: 20px;
-    background: linear-gradient(90deg, red 0%, #0005ff 100%);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
-
-.button-shop-v {
-  width: 130px;
-  background-color: black;
-  color: white;
-  border: 1.5px solid #1d1d1d;
-  border-radius: 20px;
-  padding: 5px; }
-  .button-shop-v:hover {
-    transform: scale(1.1);
-    background: red;
-    border: 2px solid #1d1d1d;
-    border-radius: 20px;
-    background: linear-gradient(90deg, red 0%, #0005ff 100%);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
 
 .galery-conteiner {
   display: flex;
@@ -704,27 +711,6 @@ footer {
       -webkit-background-clip: text;
       font-size: 13px;
       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); }
-  .dropdown-menu {
-    background-color: black;
-    border: 2px solid #ff0000;
-    box-shadow: none; }
-    .dropdown-menu li a {
-      display: none;
-      justify-content: left;
-      align-items: center;
-      font-size: 10px;
-      padding: 5px;
-      box-shadow: none;
-      border-right: none; }
-      .dropdown-menu li a:hover {
-        transform: scale(1);
-        font-size: 10px;
-        color: white;
-        background-color: #1d1d1d;
-        box-shadow: none; }
-  .dropdown-divider {
-    width: 90%;
-    background-color: black; }
   .nav-menu-right {
     grid-area: item2;
     width: 100%;

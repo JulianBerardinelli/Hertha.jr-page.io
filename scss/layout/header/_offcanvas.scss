@@ -6,17 +6,17 @@
     @include flex(block,left,none);
     .button-out {
         position: absolute;
-        right: 15%;
-        top: 5%;
+        right: 7%;
+        top: 3%;
     }
     h5 {
-        margin-top: 30px;
+        margin-top: 25px;
         font-family: "Hertha-3";
         font-size: 40px;
     }
     .offc-title-2 {
         position: absolute;
-        top: 7%;
+        top: 6%;
         background: linear-gradient(to right, #ff0000,#0011ff);
         -webkit-text-fill-color: transparent; 
         background-clip: text;
@@ -25,31 +25,13 @@
 }
 .offcavas-body {
     @include flex(block,left,none);
-    margin: 0px;
+    margin-top: 0px;
     padding: 0px;
+    }
     .buscar-offcanvas {
-        width: 100%;
-        @include flex(none,center,center);
-        .buscar-bar{
-            width: 180px;
-            height: 35px;
-        }
-        .buscar-button {
-            margin-left: 10px;
-            width: 100px;
-            height: 35px;
-            border-color: $bgd-color-princial;
-            color: $txt-color;
-            &:hover{
-                    transform: scale(1.05);
-                    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
-                    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
-                    border-image-source: linear-gradient(rgb(49, 49, 49), rgb(0, 0, 0));
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text; 
-                    -webkit-background-clip: text;
-                }
-            }
+        margin-top: 5px;
+        margin-bottom: 7px;
+
     }
     .nav-offcanvas {
         width: 100%;
@@ -61,13 +43,21 @@
                 list-style: none;
                 text-decoration: none;
                 color: $txt-color;
+                &:hover {
+                    transform: scale(1.05);
+                    background: rgb(255,0,0);
+                    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                }
             }
         }
     }
     .social-media {
         width: 100%;
+        margin-left: -15px;
         @include flex(flex,left,none);
-        background-color: #0011ff;
         .social-media-icons {
             width: 35px;
             padding: 2px;
@@ -75,8 +65,7 @@
         }
     }
     .separador-offc {
-        width: 50%;
+        width: 60%;
         height: 4px;
         top: 0%;
     }
-}

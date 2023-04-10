@@ -55,31 +55,7 @@
             }
         } 
     }
-    .dropdown-menu {
-        background-color: $bgd-color-princial;
-        border: 2px solid #ff0000;
-        box-shadow: none;
-        li{
-            a {
-                @include flex (none,left,center);
-                font-size: 10px;
-                padding: 5px;
-                box-shadow: none;
-                border-right: none;
-                &:hover {
-                    transform: scale(1.0);
-                    font-size: 10px;
-                    color: $txt-color;
-                    background-color: #1d1d1d;
-                    box-shadow: none;
-                }
-            }
-        } 
-    }
-    .dropdown-divider {
-        width: 90%;
-        background-color: $bgd-color-princial;
-    }
+
     .nav-menu-right {
         grid-area: item2;
         width: 100%;
