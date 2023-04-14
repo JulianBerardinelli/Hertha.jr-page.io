@@ -282,7 +282,8 @@ header .conteiner-1 {
     align-items: none; }
 
 .table {
-  width: 100%;
+  width: 90%;
+  margin-left: 17px;
   border: 3px solid #1d1d1d8e;
   color: white;
   padding: 5px;
@@ -623,11 +624,14 @@ footer {
   .title-rect-left {
     position: absolute;
     top: -7%;
-    left: 51%;
+    left: 70%;
     width: 55%;
     height: 25px; }
   .match:hover {
     transform: scale(1.1); }
+  .table {
+    width: 80%;
+    margin-left: 32px; }
   .table th, .table td {
     padding: 4px; }
   .table-shield {
@@ -657,6 +661,9 @@ footer {
     font-size: 25px; } }
 
 @media (min-width: 425px) {
+  .table {
+    width: 80%;
+    margin-left: 42px; }
   .club-box2 img {
     top: 58%; }
   .club-box2 h2 {
@@ -669,24 +676,25 @@ footer {
     padding-left: 30px;
     padding-right: 30px; } }
 
-.club-box2 img {
-  top: 65%;
-  width: 500px;
-  height: 45px; }
-
-.club-box2 h2 {
-  top: 70%;
-  left: 30%;
-  font-size: 30px; }
-
-.cal-banner {
-  background-position: top;
-  background-attachment: fixed; }
-
-.cal-conteiner h1 {
-  font-size: 40px;
-  top: 40%;
-  left: 3%; }
+@media (min-width: 768px) {
+  .table {
+    width: 80%;
+    margin-left: 77px; }
+  .club-box2 img {
+    top: 65%;
+    width: 500px;
+    height: 45px; }
+  .club-box2 h2 {
+    top: 70%;
+    left: 30%;
+    font-size: 30px; }
+  .cal-banner {
+    background-position: top;
+    background-attachment: fixed; }
+  .cal-conteiner h1 {
+    font-size: 40px;
+    top: 40%;
+    left: 3%; } }
 
 @media (min-width: 900px) {
   h1 {
@@ -810,6 +818,9 @@ footer {
     margin-top: 10px; }
   .separador {
     height: 10px; }
+  .table {
+    width: 80%;
+    margin-left: 145px; }
   .store-box {
     display: flex;
     justify-content: space-evenly;

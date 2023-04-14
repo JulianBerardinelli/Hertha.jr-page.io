@@ -1,23 +1,29 @@
-.club-box2 {
-    img {
-        top: 65%;
-        width: 500px;
-        height: 45px;
+@media (min-width:768px) {
+    .table {
+        width: 80%;
+        margin-left: 77px
     }
-    h2 {
-        top: 70%;
-        left: 30%;
-        font-size: 30px;
+    .club-box2 {
+        img {
+            top: 65%;
+            width: 500px;
+            height: 45px;
+        }
+        h2 {
+            top: 70%;
+            left: 30%;
+            font-size: 30px;
+        }
     }
-}
-.cal-banner {
-    background-position: top;
-    background-attachment: fixed;
-}
-.cal-conteiner {
-    h1{
-        font-size: 40px;
-        top: 40%;
-        left: 3%;
+    .cal-banner {
+        background-position: top;
+        background-attachment: fixed;
+    }
+    .cal-conteiner {
+        h1{
+            font-size: 40px;
+            top: 40%;
+            left: 3%;
+        }
     }
 }

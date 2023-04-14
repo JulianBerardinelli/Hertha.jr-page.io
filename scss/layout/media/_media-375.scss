@@ -19,12 +19,16 @@
     .title-rect-left {
         position: absolute;
         top: -7%;
-        left: 51%;
+        left: 70%;
         width: 55%;
         height: 25px;
     }
     .match:hover {
         transform: scale(1.1);
+    }
+    .table {
+        width: 80%;
+        margin-left: 32px
     }
     .table th, .table td {
         padding: 4px;
