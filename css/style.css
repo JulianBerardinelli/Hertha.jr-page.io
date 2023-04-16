@@ -316,7 +316,7 @@ header .conteiner-1 {
       margin-right: 5px; }
 
 .slider {
-  width: 75vw;
+  width: 85vw;
   height: auto;
   margin: auto;
   overflow: hidden; }
@@ -325,11 +325,12 @@ header .conteiner-1 {
   display: flex;
   justify-content: none;
   align-items: center;
-  animation: scroll 40s lineal infinite;
-  width: calc(200px * 10);
-  -webkit-animation: scroll 40s lineal infinite; }
+  animation: scroll 10s linear infinite;
+  width: calc(200px * 12);
+  -webkit-animation: scroll 10s linear infinite; }
   .slide-track div {
-    width: 100px; }
+    width: 80px;
+    padding: 10px; }
     .slide-track div img {
       width: 100%; }
 
@@ -338,8 +339,8 @@ header .conteiner-1 {
     -webkit-animation: translateX(0);
     transform: translateX(0); }
   100% {
-    -webkit-animation: translateX(calc(-200px * 5));
-    transform: translateX(calc(-200px * 5)); } }
+    -webkit-animation: translateX(calc(-80px * 6));
+    transform: translateX(calc(-80px * 6)); } }
 
 .conteiner-3 {
   width: 100%;
