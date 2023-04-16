@@ -191,13 +191,12 @@ header .conteiner-1 {
 
 .conteiner-2 {
   width: 100%;
-  height: 900px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../assets/img/background-1.jpg);
-  flex-wrap: wrap;
-  margin-top: 30px; }
+  flex-wrap: wrap; }
   .conteiner-2 section {
     display: block;
     justify-content: center;
@@ -272,6 +271,14 @@ header .conteiner-1 {
 .title-2 {
   margin-top: 10px; }
 
+.conteiner-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/backgrounds/muro-negro-1.jpg);
+  background-position: center;
+  background-attachment: fixed; }
+
 .box-3 {
   width: 100%;
   color: white; }
@@ -283,7 +290,6 @@ header .conteiner-1 {
 
 .table {
   width: 90%;
-  margin-left: 17px;
   border: 3px solid #1d1d1d8e;
   color: white;
   padding: 5px;
@@ -309,12 +315,38 @@ header .conteiner-1 {
       width: 15px;
       margin-right: 5px; }
 
+.slider {
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden; }
+
+.slide-track {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  animation: scroll 40s lineal infinite;
+  width: calc(200px * 10);
+  -webkit-animation: scroll 40s lineal infinite; }
+  .slide-track div {
+    width: 100px; }
+    .slide-track div img {
+      width: 100%; }
+
+@keyframes scroll {
+  0% {
+    -webkit-animation: translateX(0);
+    transform: translateX(0); }
+  100% {
+    -webkit-animation: translateX(calc(-200px * 5));
+    transform: translateX(calc(-200px * 5)); } }
+
 .conteiner-3 {
   width: 100%;
   display: block;
   justify-content: center;
   align-items: none;
-  background-image: url(../assets/img/backgrounds/muro-negro.jpg);
+  background-image: url(../assets/img/backgrounds/degrade.png);
   background-position: center;
   background-attachment: fixed; }
   .conteiner-3 div {
@@ -630,8 +662,7 @@ footer {
   .match:hover {
     transform: scale(1.1); }
   .table {
-    width: 80%;
-    margin-left: 32px; }
+    width: 80%; }
   .table th, .table td {
     padding: 4px; }
   .table-shield {
@@ -661,9 +692,6 @@ footer {
     font-size: 25px; } }
 
 @media (min-width: 425px) {
-  .table {
-    width: 80%;
-    margin-left: 42px; }
   .club-box2 img {
     top: 58%; }
   .club-box2 h2 {
@@ -677,9 +705,6 @@ footer {
     padding-right: 30px; } }
 
 @media (min-width: 768px) {
-  .table {
-    width: 80%;
-    margin-left: 77px; }
   .club-box2 img {
     top: 65%;
     width: 500px;
@@ -818,9 +843,6 @@ footer {
     margin-top: 10px; }
   .separador {
     height: 10px; }
-  .table {
-    width: 80%;
-    margin-left: 145px; }
   .store-box {
     display: flex;
     justify-content: space-evenly;
@@ -885,4 +907,33 @@ footer {
     .cal-conteiner h2 {
       font-size: 70px;
       top: 69%;
-      left: 3%; } }
+      left: 3%; }
+  .box-1 .title-rect-left {
+    top: -10%;
+    left: -20%;
+    width: 100%;
+    height: 40px; }
+  .box-2 .title-rect-right {
+    left: 20%;
+    top: -10%;
+    width: 100%;
+    height: 40px; } }
+
+@media (min-width: 2560px) {
+  h1 {
+    font-size: 50px; }
+  h2 {
+    font-size: 27px; }
+  h3 {
+    font-size: 24px; }
+  .logo {
+    width: 110px;
+    top: 30%; }
+  .conteiner-1 {
+    height: 90px; }
+  .nav-main {
+    height: 70px; }
+  .nav-menu-left {
+    height: 70px; }
+  .nav-menu-right {
+    height: 70px; } }
