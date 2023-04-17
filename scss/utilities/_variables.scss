@@ -1,12 +1,26 @@
+[data-theme="dark"] {
+    $bgd-color-princial: rgb(0, 0, 0);
+    $bgd-color-secundario: linear-gradient(90deg, red 0%, #0005ff 100%);
+    $bgd-img : url(../assets/img/background-1.jpg);
+    $txt-color: rgb(255, 255, 255);
+    $nav-img: url(../assets/img/conteiner11.jpg);
+}
+[data-theme="light"] {
+    $bgd-color-princial: rgb(255, 255, 255);
+    $bgd-img : url(../assets/img/background-2.jpg);
+    $txt-color: rgb(0, 0, 0);
+    $nav-img: url(../assets/img/conteiner11.jpg);
+}
 $bgd-color-princial: rgb(0, 0, 0);
 $txt-color: rgb(255, 255, 255);
 $txt-color-sec: #1d1d1d;
+$bgd-color-secundario: red;
+
 
 
 $bgd-img: url(../assets/img/background-1.jpg);
 // for white "url(../assets/img/background-2.jpg)"
 
 $nav-img: url(../assets/img/conteiner11.jpg);
-
 
 

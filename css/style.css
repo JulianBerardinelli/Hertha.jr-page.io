@@ -654,10 +654,9 @@ footer {
     left: 0%;
     width: 55%;
     height: 25px; }
-  .title-rect-left {
+  .box-1 .title-rect-left {
     position: absolute;
-    top: -7%;
-    left: 70%;
+    top: -9%;
     width: 55%;
     height: 25px; }
   .match:hover {
