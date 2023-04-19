@@ -49,33 +49,5 @@ footer {
             }
         }
     }
-    .social-media {
-        @include flex(flex,center,center);
-        padding: 3px;
-        margin-top: 10px;
-        a {
-            width: 30px;
-        }
-    }
-    .sec-data {
-        @include flex(flex,center,center);
-        ul {
-            list-style: none;
-            display: flex;
-            padding: 0%;
-            li {
-                list-style: none;
-                padding: 5px;
-                h6{
-                    font-size: 12px;
-                }
-            }
-        }
-    }
-    .made-by {
-        @include flex(flex,center,center);
-        h6{ 
-            font-size: 12px;
-        }
-    }
+    
 }

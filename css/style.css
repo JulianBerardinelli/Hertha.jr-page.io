@@ -189,6 +189,52 @@ header .conteiner-1 {
   background-color: black;
   display: flex; }
 
+.presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto; }
+  .presentacion div {
+    padding: 5px; }
+    .presentacion div h1 {
+      color: #fff;
+      font-family: monospace;
+      font-size: 9px;
+      overflow: hidden;
+      /* Ensures the content is not revealed until the animation */
+      border-right: 3px solid red;
+      /* The typwriter cursor */
+      white-space: nowrap;
+      /* Keeps the content on a single line */
+      margin: 0 auto;
+      /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .10em;
+      /* Adjust as needed */
+      animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; }
+      .presentacion div h1 code {
+        background: linear-gradient(to right, #ff0000, #1100ff);
+        color: white;
+        font-family: "Hertha-1";
+        font-size: 10px; }
+
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: red; } }
+
+.typewrite {
+  color: #fff;
+  text-decoration: none; }
+
 .conteiner-2 {
   width: 100%;
   height: 500px;
@@ -613,33 +659,45 @@ footer {
         color: white;
         list-style: none;
         text-decoration: none; }
-  footer .social-media {
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin: 0px;
+  margin-top: 10px; }
+  .social-media a {
+    width: 30px; }
+
+.medios-pago {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .medios-pago img {
+    padding: 10px;
+    width: 50px; }
+
+.sec-data {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .sec-data ul {
+    list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
-    margin-top: 10px; }
-    footer .social-media a {
-      width: 30px; }
-  footer .sec-data {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    footer .sec-data ul {
+    padding: 0%; }
+    .sec-data ul li {
       list-style: none;
-      display: flex;
-      padding: 0%; }
-      footer .sec-data ul li {
-        list-style: none;
-        padding: 5px; }
-        footer .sec-data ul li h6 {
-          font-size: 12px; }
-  footer .made-by {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    footer .made-by h6 {
-      font-size: 12px; }
+      padding: 5px; }
+      .sec-data ul li h6 {
+        font-size: 12px; }
+
+.made-by {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .made-by h6 {
+    font-size: 12px; }
 
 @media (min-width: 375px) {
   h1 {
@@ -865,6 +923,12 @@ footer {
     width: 280px; }
   .product {
     width: 250px; }
+  .store-box .product-box {
+    width: 280px; }
+  .store-box .product {
+    width: 250px; }
+  .personalize {
+    margin-left: 120px; }
   .galery-conteiner h1 {
     top: 150px;
     font-size: 50px; }

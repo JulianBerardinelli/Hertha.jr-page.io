@@ -1,0 +1,42 @@
+.presentacion {
+    @include flex(flex,center,center)
+    width: 100%;
+    height: auto;
+    div{
+        padding: 5px;
+        h1 {
+            color: #fff;
+            font-family: monospace;
+            font-size: 9px;
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            border-right: 3px solid red; /* The typwriter cursor */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .10em; /* Adjust as needed */
+            animation: 
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+            code {
+                background: linear-gradient(to right, #ff0000,#1100ff);
+                color: white;
+                font-family: "Hertha-1";
+                font-size: 10px;
+            }
+        }
+    }
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: red }
+}
+
+.typewrite {
+    color:#fff; 
+    text-decoration: none;
+}
