@@ -21,6 +21,8 @@
 
     <!-- Boostrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- AOS LIBRARY ANIMATIONS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -103,7 +105,7 @@
     </header>
 
     <main>
-        <section class="slide-1">
+        <section class="slide-1"  data-aos="fade-in"  data-aos-duration="1000" data-aos-once="true">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -133,7 +135,7 @@
                 </div>
             </div>
             <div class="conteiner-2">
-                <section class="box-1">
+                <section class="box-1" data-aos="fade-left"  data-aos-duration="1000">
                     <img class="title-rect-left" src="./assets/img/Rectangle2.png" alt="">
                     <div class="title-a">
                         <h1>ULTIMO RESULTADO</h1>
@@ -148,7 +150,7 @@
                         <h3>Fecha 15° - "A" Vascogermana</h3>
                     </div>
                 </section>
-                <section class="box-2">
+                <section class="box-2"data-aos="fade-right" data-aos-duration="1000">
                     <img class="title-rect-right" src="./assets/img/Rectangle2.png" alt="">
                     <div class="title-a">
                         <h1>PROXIMO PARTIDO</h1>
@@ -166,10 +168,10 @@
             <div class="conteiner-table">
                 <section class="box-3">
                     <div class="title-a">
-                        <h1>POSICIONES</h1>
+                        <h1 data-aos="fade-in" data-aos-duration="1000">POSICIONES</h1>
                     </div>
                     <div> 
-                        <table class="table">
+                        <table class="table" data-aos="fade-in" data-aos-duration="1000">
                             <thead>
                                 <tr>
                                     <th>#</th>
@@ -349,7 +351,7 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="cards-wrapper">
+                        <div class="cards-wrapper" data-aos="zoom-in-up" data-aos-duration="1000">
                             <div class="card">
                                 <img src="./assets/img/news-pics/simon.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -447,7 +449,7 @@
         <section class="store-conteiner">
             <img class="separador" src="./assets/img/Rectangle2.png" alt="">
             <h1 class="title">INDUMENTARIA OFICIAL</h1>
-            <div class="store-box">
+            <div class="store-box" data-aos="slide-up" data-aos-duration="1000">
                 <section class="product-box">
                     <div class="first-product">
                         <img class="product" src="./assets/img/products/home-kit.jpg" alt="">
@@ -563,6 +565,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
