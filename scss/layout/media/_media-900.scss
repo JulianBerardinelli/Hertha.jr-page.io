@@ -105,6 +105,17 @@
             background: linear-gradient(to right, #003cff,#00d0ff);
         }
     }
+    .presentacion {
+        div{
+            h1 {
+                font-size: 20px;
+                border-right: 5px solid white;
+                code {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
     .title-rect-right {
         position: absolute;
         left: 20%;
