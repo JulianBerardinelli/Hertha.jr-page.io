@@ -1,4 +1,7 @@
 @media (min-width:900px) {
+    main {
+        padding-top: 121px;
+    }
     h1 {
         font-size: 40px;
     }
@@ -23,6 +26,13 @@
         "item1 item2"
         ;
         border-bottom: 1px solid #1d1d1d;
+    }
+    .d-lg-block {
+        background-color: #000000;
+    }
+    .header--hidden {
+        transform: translateY(-121px);
+        box-shadow: none;
     }
     .nav-menu-left {
         grid-area: item1;

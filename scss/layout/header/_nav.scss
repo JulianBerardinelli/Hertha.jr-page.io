@@ -1,4 +1,12 @@
 header {
+    width: 100%;
+    height: var(--nav-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    transition: transform 1.2s;
     .conteiner-1 {
         width: 100%;
         height: 70px;
@@ -21,6 +29,13 @@ header {
             }
         }
     }
+}
+.nav-menu-phone {
+    background-color: black;
+}
+.header--hidden {
+    transform: translateY(-107.6px);
+    box-shadow: none;
 }
 
 

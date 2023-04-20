@@ -1,5 +1,5 @@
 .presentacion {
-    @include flex(flex,center,center)
+    @include flex(flex,center,center);
     width: 100%;
     height: auto;
     background: linear-gradient(253deg, #ff0000,#ff0000,#0011ff,#0011ff,#ff0000,#ff0000);

@@ -8,6 +8,10 @@
 body {
     background-color: $bgd-color-princial;
 }
+main {
+    --nav-height: 107.6px; 
+    padding-top: var(--nav-height);
+}
 h1 {
     color: $txt-color;
     font-family: "Hertha-3";
