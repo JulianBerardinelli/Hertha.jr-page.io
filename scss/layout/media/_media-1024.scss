@@ -1,3 +1,19 @@
 @media (min-width:1024px) {
-
+    .club-box2 {
+        img {
+            top: 90%;
+            width: 700px;
+            height: 50px;
+        }
+        h2 {
+            top: 92%;
+            left: 55%;
+            font-size: 45px;
+            color: $txt-color;
+        }
+        p {
+            font-size: 18px;
+            margin-left: 80PX;
+        }
+    }
 }
