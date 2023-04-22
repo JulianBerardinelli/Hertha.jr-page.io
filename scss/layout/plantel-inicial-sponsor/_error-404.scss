@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 550px;
-    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
+    background: $bdg-gradient;
 }
 .error-404 {
     display: block;
@@ -11,8 +11,8 @@
     align-items: center;
     margin-top: 20px;
     width: 70%;
-    background-color: black;
-    border: 2px solid #1d1d1d;;
+    background-color: $bgd-color-principal;
+    border: 2px solid $border-color;
     border-radius: 20px;
         div{
             display: flex;
@@ -28,9 +28,9 @@
                 }
                 button{
                     width: 130px;
-                    background-color: $bgd-color-princial;
+                    background-color: $bgd-color-principal;
                     color: $txt-color;
-                    border: 1.5px solid #1d1d1d;
+                    border: 1.5px solid $border-color;
                     border-radius: 20px;
                     padding: 5px;
                     margin: 5px;
@@ -38,9 +38,9 @@
                         &:hover {
                     transform: scale(1.1);
                     background: rgb(255,0,0);
-                    border: 2px solid #1d1d1d;
+                    border: 2px solid $border-color;
                     border-radius: 20px;
-                    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
+                    background: $bdg-gradient;
                     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
                     }
                 }

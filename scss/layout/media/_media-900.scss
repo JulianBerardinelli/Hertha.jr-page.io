@@ -20,15 +20,15 @@
         height: 51px;
         display: grid;
         align-items: center;
-        background: $bgd-color-princial;
+        background: $bgd-color-principal;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
         "item1 item2"
         ;
-        border-bottom: 1px solid #1d1d1d;
+        border-bottom: 1px solid $border-color;
     }
     .d-lg-block {
-        background-color: #000000;
+        background-color: $bgd-color-principal;
     }
     .header--hidden {
         transform: translateY(-121px);
@@ -43,7 +43,7 @@
         align-items: center;
         list-style: none;
         font-size: 12px;
-        background-color: #000000;
+        background-color: $bgd-color-principal;
         li{
             a {
                 width: 100%;
@@ -52,16 +52,16 @@
                 color: white;
                 text-decoration: none;
                 padding: 10px 2px;
-                border-right: 1px solid #1d1d1d;
+                border-right: 1px solid $border-color;
             }
             &:hover {
                 transform: scale(1.1);
-                background: linear-gradient(to right, #ff0000,rgba(255, 0, 0, 0.712));
+                background: $bdg-gradient;
                 -webkit-text-fill-color: transparent; 
                 background-clip: text;
                 -webkit-background-clip: text;
                 font-size: 13px;
-                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+                box-shadow: 0px 0px 10px 0px $shadow-color;
             }
         } 
     }
@@ -72,7 +72,7 @@
         @include flex (flex,right,center);
         list-style: none;
         font-size: 12px;
-        background-color: $bgd-color-princial;
+        background-color: $bgd-color-principal;
         li{
             a{
                 width: 100%;
@@ -88,7 +88,7 @@
                 background-clip: text;
                 -webkit-background-clip: text;
                 font-size: 13px;
-                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+                box-shadow: 0px 0px 10px 0px $shadow-color;
             }
         }
         img {
@@ -101,17 +101,17 @@
         margin-top: 3px;
         margin-left: 20px;
         margin-right: 10px;
-        background-color: $bgd-color-princial;
-        border-color: #ffffff33;
+        background-color: $bgd-color-principal;
+        border-color: $border-color;
         color: $txt-color;
     }
     .buscar-button {
         width: 100px;
         height: 35px;
-        border-color: $bgd-color-princial;
+        border-color: $bgd-color-principal;
         color: $txt-color;
         &:hover{
-            border-color: #1d1d1d;
+            border-color: $border-color;
             background: linear-gradient(to right, #003cff,#00d0ff);
         }
     }
@@ -184,9 +184,9 @@
     }
     .button-shop-v {
         width: 150px;
-        background-color: $bgd-color-princial;
+        background-color: $bgd-color-principal;
         color: $txt-color;
-        border: 1.5px solid #1d1d1d;
+        border: 1.5px solid $border-color;
         border-radius: 20px;
         padding: 5px;
     }

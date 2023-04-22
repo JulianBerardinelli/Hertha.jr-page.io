@@ -2,7 +2,7 @@
     width: 100%;
     @include flex(flex,center,center);
     background-image: $bgd-img;
-    background-color: $bgd-color-princial;
+    background-color: $bgd-color-principal;
     flex-wrap: wrap;
     color: $txt-color;
 }
@@ -13,7 +13,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
     section {
-        background-color: $bgd-color-princial;
+        background-color: $bgd-color-principal;
         padding: 13px;
         justify-self: center;
         div {

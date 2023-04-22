@@ -14,12 +14,12 @@
 }
 .table {
     width: 90%;
-    border: 3px solid #1d1d1d8e;
+    border: 3px solid $border-color;
     color: $txt-color;
     padding: 5px;
     border-collapse: collapse;
     tr {
-        background-color: $bgd-color-princial;
+        background-color: $bgd-color-principal;
         border-bottom: 1px solid #1d1d1d8e;
         th {
             padding: 2px;
@@ -32,8 +32,8 @@
     tbody tr:hover {
         transform: scale(1.0);
         background: rgb(255,0,0);
-        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
-        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+        background: $bdg-gradient;
+        box-shadow: 0px 0px 20px 0px $shadow-color;
     }
     .equipos {
         @include flex(flex,none,center);

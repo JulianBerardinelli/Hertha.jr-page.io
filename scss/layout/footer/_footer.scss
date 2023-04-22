@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     @include flex(block,center,none);
-    background: $bgd-color-princial;    
+    background: $bgd-color-principal;    
     div {
         margin: 4px;
         padding: 5px;
@@ -16,9 +16,9 @@ footer {
         }
     }
     .accordion {
-        --bs-accordion-bg: $bgd-color-princial;
+        --bs-accordion-bg: $bgd-color-principal;
         --bs-accordion-btn-color: $txt-color;
-        --bs-accordion-border-color: #212529;
+        --bs-accordion-border-color: $border-color;
     }
     .accordion-button {
         letter-spacing: 1px;
@@ -32,7 +32,7 @@ footer {
         }
     }
     section {
-        background: linear-gradient(253deg, #ff0000,#0011ff);
+        background: $bdg-gradient-2;
         clip-path: polygon(30% 12%, 83% 31%, 100% 14%, 100% 100%, 0 100%, 0 5%, 9% 24%);
         ul {
             padding-top: 70px;

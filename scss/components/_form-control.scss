@@ -3,12 +3,12 @@
     margin-left: -15px;
 }
 .btn-outline-success {
-    border-color: $bgd-color-princial;
+    border-color: $bgd-color-principal;
     color: $txt-color;
     &:hover{
             transform: scale(1.05);
-            background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
-            box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+            background: $bdg-gradient;
+            box-shadow: 0px 0px 20px 0px $shadow-color;
             --bs-btn-hover-border-color: #ffffff;
             --bs-btn-active-bg: #ffffff;
             --bs-btn-active-border-color: #ffffff;

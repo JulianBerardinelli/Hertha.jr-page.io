@@ -63,7 +63,6 @@ h3 {
   margin-left: 7px; }
   .button-shop:hover {
     transform: scale(1.1);
-    background: red;
     border: 2px solid #1d1d1d;
     border-radius: 20px;
     background: linear-gradient(90deg, red 0%, #0005ff 100%);
@@ -154,7 +153,7 @@ header {
   .offcanvas-header .offc-title-2 {
     position: absolute;
     top: 6%;
-    background: linear-gradient(to right, #ff0000, #0011ff);
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text; }
@@ -182,7 +181,6 @@ header {
       color: white; }
       .nav-offcanvas li a:hover {
         transform: scale(1.05);
-        background: red;
         background: linear-gradient(90deg, red 0%, #0005ff 100%);
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -325,7 +323,7 @@ header {
     transform: scale(1.05);
     background: red;
     background: linear-gradient(90deg, red 0%, #0005ff 100%);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px black;
     border-image-source: linear-gradient(#313131, black); }
   .match .team-1 {
     width: 60px;
@@ -362,7 +360,7 @@ header {
 
 .table {
   width: 90%;
-  border: 3px solid #1d1d1d8e;
+  border: 3px solid #1d1d1d;
   color: white;
   padding: 5px;
   border-collapse: collapse; }
@@ -451,7 +449,7 @@ header {
     position: absolute;
     top: 45%;
     left: 5%;
-    background: linear-gradient(to right, #ff0000, #0011ff);
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -611,7 +609,7 @@ header {
     position: absolute;
     font-size: 40px;
     top: 40%;
-    background: linear-gradient(to right, #ff0000, #1100ff);
+    background: linear-gradient(90deg, red 0%, #0005ff 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text; }
@@ -633,9 +631,9 @@ header {
   margin-top: 10px; }
 
 .accordion {
-  --bs-accordion-bg: $bgd-color-princial;
+  --bs-accordion-bg: $bgd-color-principal;
   --bs-accordion-btn-color: $txt-color;
-  --bs-accordion-border-color: #212529; }
+  --bs-accordion-border-color: $border-color; }
 
 .acor-body img {
   margin: 0px 15px 0px 15px;
@@ -649,7 +647,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 550px;
-  background: linear-gradient(180deg, red 0%, #0005ff 100%); }
+  background: linear-gradient(90deg, red 0%, #0005ff 100%); }
 
 .error-404 {
   display: block;
@@ -701,9 +699,9 @@ footer {
     footer .footer-logo a img {
       width: 60px; }
   footer .accordion {
-    --bs-accordion-bg: $bgd-color-princial;
+    --bs-accordion-bg: $bgd-color-principal;
     --bs-accordion-btn-color: $txt-color;
-    --bs-accordion-border-color: #212529; }
+    --bs-accordion-border-color: $border-color; }
   footer .accordion-button {
     letter-spacing: 1px; }
     footer .accordion-button:not(.collapsed) {
@@ -773,13 +771,11 @@ footer {
   h3 {
     font-size: 10px; }
   .title-rect-right {
-    position: absolute;
     top: -7%;
     left: 0%;
     width: 55%;
     height: 25px; }
   .box-1 .title-rect-left {
-    position: absolute;
     top: -9%;
     width: 55%;
     height: 25px; }
@@ -867,7 +863,7 @@ footer {
     grid-template-areas: "item1 item2";
     border-bottom: 1px solid #1d1d1d; }
   .d-lg-block {
-    background-color: #000000; }
+    background-color: black; }
   .header--hidden {
     transform: translateY(-121px);
     box-shadow: none; }
@@ -880,7 +876,7 @@ footer {
     align-items: center;
     list-style: none;
     font-size: 12px;
-    background-color: #000000; }
+    background-color: black; }
     .nav-menu-left li a {
       width: 100%;
       display: flex;
@@ -891,7 +887,7 @@ footer {
       border-right: 1px solid #1d1d1d; }
     .nav-menu-left li:hover {
       transform: scale(1.1);
-      background: linear-gradient(to right, #ff0000, rgba(255, 0, 0, 0.712));
+      background: linear-gradient(90deg, red 0%, #0005ff 100%);
       -webkit-text-fill-color: transparent;
       background-clip: text;
       -webkit-background-clip: text;
@@ -932,7 +928,7 @@ footer {
     margin-left: 20px;
     margin-right: 10px;
     background-color: black;
-    border-color: #ffffff33;
+    border-color: #1d1d1d;
     color: white; }
   .buscar-button {
     width: 100px;
@@ -1069,8 +1065,7 @@ footer {
   .club-box2 h2 {
     top: 92%;
     left: 55%;
-    font-size: 45px;
-    color: white; }
+    font-size: 45px; }
   .club-box2 p {
     font-size: 18px;
     margin-left: 80PX; } }
@@ -1083,8 +1078,7 @@ footer {
   .club-box2 h2 {
     top: 95%;
     left: 40%;
-    font-size: 45px;
-    color: white; }
+    font-size: 45px; }
   .club-box2 p {
     font-size: 18px;
     margin-left: 80PX; } }
@@ -1097,8 +1091,7 @@ footer {
   .club-box2 h2 {
     top: 108%;
     left: 40%;
-    font-size: 45px;
-    color: white; }
+    font-size: 45px; }
   .club-box2 p {
     font-size: 18px;
     margin-left: 80PX; } }

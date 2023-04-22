@@ -17,7 +17,7 @@
     .offc-title-2 {
         position: absolute;
         top: 6%;
-        background: linear-gradient(to right, #ff0000,#0011ff);
+        background: $bdg-gradient;
         -webkit-text-fill-color: transparent; 
         background-clip: text;
         -webkit-background-clip: text;
@@ -45,8 +45,7 @@
                 color: $txt-color;
                 &:hover {
                     transform: scale(1.05);
-                    background: rgb(255,0,0);
-                    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
+                    background: $bdg-gradient;
                     -webkit-text-fill-color: transparent;
                     background-clip: text;
                     -webkit-background-clip: text;

@@ -45,20 +45,20 @@
 }
 .match{
     height: 100px;
-    background: $bgd-color-princial;
+    background: $bgd-color-principal;
     @include flex(flex,center,center);
     border: 3px solid;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 12px;
-    border-image-source: linear-gradient(rgb(0, 0, 0), rgb(49, 49, 49));
+    border-image-source: $border-gradient;
     border-image-slice: 1;
     border-radius: 10px;
     &:hover {
         transform: scale(1.05);
         background: rgb(255,0,0);
-        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
-        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+        background: $bdg-gradient;
+        box-shadow: 0px 0px 20px 0px $bgd-color-principal;
         border-image-source: linear-gradient(rgb(49, 49, 49), rgb(0, 0, 0));    
     }
     .team-1 {

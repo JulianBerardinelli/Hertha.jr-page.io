@@ -1,9 +1,17 @@
 
-$bgd-color-princial: rgb(0, 0, 0);
+$bgd-color-principal: rgb(0, 0, 0);
 $txt-color: rgb(255, 255, 255);
-$txt-color-sec: #1d1d1d;
-$bgd-color-secundario: red;
 
+
+$border-color: #1d1d1d;
+$border-gradient: linear-gradient(rgb(0, 0, 0), rgb(49, 49, 49));
+
+$bgd-color-secundario: red;
+$bdg-gradient: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,5,255,1) 100%);
+$bdg-gradient-2: linear-gradient(253deg, #ff0000,#0011ff);
+
+
+$shadow-color: rgba(0,0,0,0.5);
 
 
 $bgd-img: url(../assets/img/background-1.jpg);
