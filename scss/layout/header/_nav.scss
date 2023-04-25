@@ -5,7 +5,7 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
-    box-shadow: 0 0 30px $bgd-color-principal;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
     transition: transform 1.2s;
     .conteiner-1 {
         width: 100%;
